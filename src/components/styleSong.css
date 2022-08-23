@@ -1,0 +1,39 @@
+.rhap_time, .rhap_progress-container, .rhap_container svg {
+    color: #fff !important;
+}
+.rhap_progress-indicator, .rhap_volume-indicator{
+    display: none;
+}
+.rhap_progress-bar-show-download{
+    background-color: #fff;
+}
+.rhap_volume-filled, .rhap_progress-filled{
+    background-color: rgb(45,212,191);
+}
+.rhap_volume-controls{
+   display: none;
+   justify-content: center;
+}
+.rhap_skip-button svg{
+    height: 28px;
+}
+.rhap_container{
+    box-shadow: none;
+}
+.rhap_additional-controls{
+    flex: 0.5 0 auto;
+}
+.rhap_play-pause-button:hover, .rhap_repeat-button:hover, .rhap_volume-button:hover {
+    transform: scale(1.1);
+    transition: all ease 0.3s;
+    opacity: 0.7;
+}
+.rhap_progress-section{
+    display: none;
+    flex: 2 1 auto;
+}
+@media (min-width:726px){
+    .rhap_volume-controls,.rhap_progress-section {
+        display:flex;
+    }
+}

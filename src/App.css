@@ -1,0 +1,24 @@
+@tailwind base;
+@layer base{
+  * {
+    @apply p-0;
+    @apply m-0;
+    @apply box-border;
+  }
+  body {
+    @apply font-Intel;
+    @apply bg-main-0;
+    @apply text-white;
+    @apply font-normal;
+    @apply leading-normal;
+  }
+  ul {
+    @apply list-none;
+  }
+  img {
+    @apply w-full
+  }
+  .music-player{
+    @apply bg-[#222] !important;
+  }
+}
